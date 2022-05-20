@@ -101,10 +101,6 @@ eval "$(fnm env)"
 fpath+=~/.config/zsh/completions/_fnm
 compinit
 
-#
-
-
-
 # fnm
 export PATH=/home/ben/.local/bin:$PATH
 eval "`fnm env`"
